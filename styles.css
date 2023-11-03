@@ -9,7 +9,10 @@
   box-sizing: border-box;
 }
 
-html { font-size: 110%; }
+html { 
+  font-size: 110%; 
+  overflow-x: hidden;
+}
 html, body {
   height: 100%;
   width: 100%;
@@ -20,7 +23,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-  overflow-x: hidden;
+  
 }
 h1 {
   font-family: 'Unica One', cursive;
@@ -185,6 +188,7 @@ hr {
 
 .container-fluid {
   padding-right: 0;
+  padding-left: 0;
 }
 
 /* Containers */
