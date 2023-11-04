@@ -355,6 +355,10 @@ width: 100%;
  
 }
 
+.center {
+  padding-left: 50px;
+}
+
 .text-left {
   margin-left: -40px;
 }
